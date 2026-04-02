@@ -1,31 +1,31 @@
-# 🚀 Serverless API with CI/CD (AWS + FastAPI)
+Serverless API with CI/CD (AWS + FastAPI)
 
 This project demonstrates a complete CI/CD pipeline deploying a Python FastAPI application to AWS Lambda.
 
-## 🧠 Features
+Features
 - FastAPI backend
 - AWS Lambda deployment
 - GitHub Actions CI/CD
 - Automated testing with pytest
 
-## ⚙️ Tech Stack
+Tech Stack
 - Python
 - FastAPI
 - AWS Lambda
 - API Gateway
 - GitHub Actions
 
-## 🔄 CI/CD Pipeline
+CI/CD Pipeline
 Every push to `main` triggers:
 - Dependency installation
 - Automated tests
 - Deployment to AWS Lambda
 
-## 🧪 Endpoints
+Endpoints
 - `/` → Hello message
 - `/health` → Health check
 
-## 🔐 Setup
+Setup
 
 1. Configure AWS credentials in GitHub Secrets:
    - AWS_ACCESS_KEY_ID
@@ -34,7 +34,7 @@ Every push to `main` triggers:
 2. Update:
    - YOUR_FUNCTION_NAME in deploy.yml
 
-## 🚀 Future Improvements
+Future Improvements
 - Add Terraform
 - Add staging environment
 - Improve logging
