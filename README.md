@@ -1,2 +1,3 @@
-# serverless-api-cicd
-.
+fastapi
+mangum
+pytest
