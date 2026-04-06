@@ -38,15 +38,18 @@ body {
 
 .sidebar {
   border-right: 1px solid var(--line);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 48px 40px 48px 0;
+  padding: 72px 40px 48px 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  align-self: start;
 }
 
 .profile-card {
   max-width: 280px;
   text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .avatar {
@@ -104,7 +107,7 @@ h1 {
 }
 
 .content {
-  padding: 72px 0;
+  padding: 72px 0 72px 0;
 }
 
 .block + .block {
@@ -264,6 +267,8 @@ h3 {
   }
 
   .sidebar {
+    position: static;
+    height: auto;
     border-right: none;
     border-bottom: 1px solid var(--line);
     padding: 48px 0;
