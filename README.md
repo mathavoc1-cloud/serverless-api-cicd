@@ -1,8 +1,5 @@
 <<<<<<< HEAD
 # meu-site
 My firstGithub project
-=======
-fastapi
-mangum
-pytest
->>>>>>> 761434938d8766da450800bbbe9011691888db3f
+I used basic HTML and CSS to build this page, as well as vanilla javascript. The idea here is to gather all
+the important informations about me and my career.
