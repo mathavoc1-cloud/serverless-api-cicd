@@ -1,5 +1,5 @@
 <img
   class="avatar"
-  src="SUA-FOTO-AQUI"
+  src="FOTO-AQUI"
   alt="Profile photo"
 />
